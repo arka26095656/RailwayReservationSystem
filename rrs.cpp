@@ -9,19 +9,23 @@ class Railway{
     string start,dest;
     long price;
     string timet;
-    
+    string passName;
     
     public:
     
     Railway( ){
         train_number="123se";
+
         train_name="Viswabharati";
         start="RAMPURHAT";
         dest="HOWRAH";
+
+        
         price=230;
         
         timet="9:00";
     }
+
     void ticketBooking(){
         cout<<"ticket booked"<<endl;
         
@@ -86,5 +90,8 @@ int main()
    r1.foodSupply();
    r1.cancelBooking();
    r1.impAnnouncement();
+	string train = "Darjeeling mail" PNR = "306654", dept = "18-30-00", arr="06-00-00";
+	long price = 599;
+	
    
 }
