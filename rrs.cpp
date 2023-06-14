@@ -9,19 +9,21 @@ class Railway{
     string start,dest;
     long price;
     string timet;
-    
+    string passName;
     
     public:
     
     Railway( ){
+	passName="Aritra";
         train_number="123se";
-        train_name="faluknama";
-        start="CONTAI";
-        dest="KGP";
+        train_name="Sealdah";
+        start="Dankuni";
+        dest="Sealdah";
         price=230;
         
         timet="12:50";
     }
+
     void ticketBooking(){
         cout<<"ticket booked"<<endl;
         
