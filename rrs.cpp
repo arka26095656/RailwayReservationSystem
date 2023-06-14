@@ -14,11 +14,11 @@ class Railway{
     public:
     
     Railway( ){
-        train_number="123se";
-        train_name="faluknama";
-        start="CONTAI";
-        dest="KGP";
-        price=230;
+        train_number="12885";
+        train_name="fljahsgsma";
+        start="Cahsgs";
+        dest="Kghgh";
+        price=285;
         
         timet="12:50";
     }
