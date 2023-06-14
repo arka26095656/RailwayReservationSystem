@@ -15,12 +15,12 @@ class Railway{
     
     Railway( ){
         train_number="123se";
-        train_name="faluknama";
-        start="CONTAI";
-        dest="KGP";
+        train_name="Viswabharati";
+        start="RAMPURHAT";
+        dest="HOWRAH";
         price=230;
         
-        timet="12:50";
+        timet="9:00";
     }
     void ticketBooking(){
         cout<<"ticket booked"<<endl;
