@@ -86,5 +86,8 @@ int main()
    r1.foodSupply();
    r1.cancelBooking();
    r1.impAnnouncement();
+	string train = "Darjeeling mail" PNR = "306654", dept = "18-30-00", arr="06-00-00";
+	long price = 599;
+	
    
 }
