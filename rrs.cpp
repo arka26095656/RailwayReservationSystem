@@ -1,12 +1,5 @@
-/******************************************************************************
 
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-#include <iostream.h>
+#include <iostream>
 using namespace std;
 
 class Railway{
@@ -29,12 +22,12 @@ class Railway{
         
         timet="12:50";
     }
-    void ticketBooking(int PNR){
+    void ticketBooking(){
         cout<<"ticket booked"<<endl;
         
     }
-    void foodSupply(int regId){
-       cout<<"veg"<<endl;  
+    void foodSupply(){
+       cout<<"veg meal"<<endl;  
     }
     void viewTrain(){
          cout<<"train name: " <<train_name<<endl;
@@ -43,21 +36,21 @@ class Railway{
     }
     void impAnnouncement()
     {
-         cout<<"N.A"<<endl;
+         cout<<"No important Announcement"<<endl;
         
     }
     void cancelBooking()
     {
         
-        
+       cout<<"no cancellation of ticket"<<endl; 
     }
     void typeofSeat()
     {
-        
+        cout<<" AC-3 tier"<<endl; 
     }
     void admin()
     {
-        
+        cout<<"your journey is confirmed"<<endl;
     }
     
     void viewMenu(){
@@ -74,8 +67,8 @@ class Railway{
 	printf("\n\n\t\t\t[5] EXIT\n");
 	printf("\n\t\t\t************");
 	printf("\n\t\t\t************");
-	printf("\n\t\t\tENTER YOUR CHOICE: ");
-	scanf("%d",&ch);
+    cout<<endl;
+    cout<<endl;
     }
     
     
@@ -84,6 +77,14 @@ int main()
 {
     
     
-   	printf("\t\t\t****RAILWAY RESERVATION SYSTEM**\n");
-   	
+   Railway r1;
+   r1.viewMenu();
+   r1.viewTrain();
+   r1.admin();
+   r1.typeofSeat();
+   r1.ticketBooking();
+   r1.foodSupply();
+   r1.cancelBooking();
+   r1.impAnnouncement();
+   
 }
