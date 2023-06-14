@@ -14,14 +14,16 @@ class Railway{
     public:
     
     Railway( ){
-	passName="Aritra";
         train_number="123se";
-        train_name="Sealdah";
-        start="Dankuni";
-        dest="Sealdah";
+
+        train_name="Viswabharati";
+        start="RAMPURHAT";
+        dest="HOWRAH";
+
+        
         price=230;
         
-        timet="12:50";
+        timet="9:00";
     }
 
     void ticketBooking(){
